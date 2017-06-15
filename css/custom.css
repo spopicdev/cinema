@@ -1,0 +1,62 @@
+body{
+    background-image: url("/background.jpg");
+}
+
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color: #222;
+}
+
+#login-dp .bottom{
+    background-color: #222;
+    color: #ddd;
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+
+
+.dropdown-menu{
+    background-color: #222;
+}
+
+.img_holder{
+    width: 100%;
+    height: auto;
+}
+
+.movieList{
+    margin-bottom: 10px;
+}
+
+
+.banner-image{
+    float: right;
+
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+
